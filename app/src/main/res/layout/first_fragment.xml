@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.first_fragment.FirstFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/plus"
+        android:textSize="32sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/minus"
+        android:textSize="32sp" />
+</LinearLayout>
